@@ -1,7 +1,5 @@
 package com.example.demo.student;
 
-import org.springframework.data.annotation.TypeAlias;
-
 import javax.persistence.*;
 import java.time.LocalDate;
 import java.time.Period;
