@@ -34,6 +34,7 @@ public class StudentService {
         studentRepository.save(student);
     }
 
+    //For Delete Student from Database
     public void deleteStudent(Long studentId) {
         boolean exist = studentRepository.existsById(studentId);
         if (!exist) {
